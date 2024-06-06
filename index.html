@@ -1,69 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-    
-    <div class="first-container">
-        <img src="image.jpg" alt="profile picture" width="200px" height="200px">
-        <div class="title">
-            <h2>Calvin Konyana</h2>
-            <p>Full-time Student</p>
-            <p>I am a Full-Stack Developer | I &#10084 coffee and video games</p>
-        </div>
-    </div> 
-    <div class="container">
-        <h3>Skills</h3>
-        <ul>
-            <li>Html, Css and JavaScript</li>
-            <li>Python</li>
-            <li>Java (Basics)</li>
-        </ul>
-    </div>
-    <div class="container">
-        <h3>Experience</h3>
-        <table>
-            <!-- mere fun.. I have no exp...just wanted to populate -->
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-            <tr>
-                <td>1892 - 1903</td>
-                <td>Freedom fighter Anti-Nazi</td>
-            </tr>
-            <tr>
-                <td>1903 - 1934</td>
-                <td>Director at FFAN</td>
-            </tr>
-            <tr>
-                <td>1935 - 1939</td>
-                <td>Volunteering (Charity Foundation)</td>
-            </tr>
-        </table>
-    </div>
-    <div class="container">
-        <h3>Teaching</h3>
-        <table>
-            <tr>
-                <td>15 Days of JavaScript(Hackerrank)</td>
-                <td>&#11088 &#11088</td>
-            </tr>
-            <tr>
-                <td>Python Hackerrank</td>
-                <td>&#11088</td>
-            </tr>
-            <tr>
-                <td>Linux shell</td>
-                <td>&#11088 &#11088 &#11088 &#11088 &#11088</td>
-            </tr>
-        </table>
-    
-    </div>
-    <a href="/form.html">Contact Me</a>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/ico" href="media/icons/favicon.ico">
+    </head>
+    <body>
+        <section id="welcome-section">
+            <h1>Hey, I am Calvin</h1>
+            <p>Web dev</p>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="projects-div">
+                <div class="project-tile project1">
+                    <a href="surveyForm/index.html" target="_blank">Project 1</a>
+                </div>
+                <div class="project-tile project2">
+                    <a href="technicalDoc/index.html" target="_blank">Project 2</a>
+                </div>
+                <div class="project-tile project3">
+                    <a href="tributePage/index.html" target="_blank">Project 3</a>
+                </div>
+                <div class="project-tile project4">
+                    <a href="productPage/index.html" target="_blank">Project 4</a>
+                </div>
+            </div>
+            <a href="https://github.com/Calvin-Reinc" id="more" target="_blank"><button>Show All ></button></a>
+        </section>
+        <section id="details">
+            <h1>Let's Work...</h1>
+            <p>What are you working on?</p>
+            <ul>
+                <li><img src="media/icons/github.svg" alt=""><span class="list-span"><a href="https://github.com/Calvin-Reinc" id="profile-link" target="_blank" class="list-a">GitHub</a></span></li>
+                <li><img src="media/icons/envelope.svg"><span class="list-span"><a href="mailto:https:konyanacv@gmail.com" id="profile-link" target="_blank" class="list-a">Mail</a></span></li>
+                <li><img src="media/icons/linkedin.svg" alt=""><span class="list-span"><a href="https://www.linkedin.com/in/konyanacv" id="profile-link" target="_blank" class="list-a">LinkedIn</a></span></li>
+                <li><img src="media/icons/twitter-x.svg" alt=""><span class="list-span"><a href="https://x.com/CKonyana62368" id="profile-link" target="_blank" class="list-a">Twitter</a></span></li>
+            </ul>
+        </section>
+        <nav id="navbar">
+            <a href="#projects">CALVIN</a>
+        </nav>
+    </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
 </html>
